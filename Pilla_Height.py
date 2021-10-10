@@ -9,7 +9,7 @@ if not string:
 print("Hello!")
 print(val)
 
-## Height Conversion 12-42
+## Height Conversion 12-41
 print("Let's get your height in feet and inches. What are the feet?")
 feet = int(input("Enter your feet\n"))
 string = feet
@@ -37,11 +37,10 @@ def divide(e, f):
 e= z
 f=100
 "{0:.2f}".format(e/f)
-print("Your height in meters is", "{0:.2f}".format(e/f))
-print("Your height in imperial is")
-print(feet, "feet and", inches, "inches")
+print("Your height in meters is:", "{0:.2f}".format(e/f))
+print("Your height in imperial is:", feet, "feet and", inches, "inches")
 
-##Outro 44-46
+##Outro 43-46
 print("Have a Great Day!")
 quit()
 
