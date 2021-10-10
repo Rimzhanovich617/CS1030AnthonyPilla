@@ -9,7 +9,7 @@ if not string:
 print("Hello!")
 print(val)
 
-## Height Conversion 12-38
+## Height Conversion 12-42
 print("Let's get your height in feet and inches. What are the feet?")
 feet = int(input("Enter your feet\n"))
 string = feet
@@ -41,7 +41,7 @@ print("Your height in meters is", "{0:.2f}".format(e/f))
 print("Your height in imperial is")
 print(feet, "feet and", inches, "inches")
 
-##Outro 40-42
+##Outro 44-46
 print("Have a Great Day!")
 quit()
 
